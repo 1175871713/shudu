@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+</html>
+<head>
+   
+    
+    <meta charset="UTF-8">
+    <title>数独游戏</title>
+    <link href="shudu.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src=jquery-1.11.3.min.js></script>
+    <script type="text/javascript" src="support.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+   
+   
+</head>
+<body>
+    <header>
+        <hl>数独游戏</hl>
+        
+        <a href="javascript:newgame();"id="newgamebutton">开始游戏</a>
+      <p>time:<span id="time"><span>0</span></p>
+    </header>
+    
+      <script>
+      document.getElementById("newgamebutton").onclick = function() {
+    window.location.href = "game.html"; 
+  };
+
+    </script>
+
+
+
+      
+
+
+    </body>
+</html>
