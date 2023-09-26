@@ -1,0 +1,56 @@
+header{
+    display: block;
+    color: burlywood;
+    margin:0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+   
+}
+header hl{
+    font-family: 宋体, Helvetica, sans-serif;
+    font-weight: 40px;
+    font-weight: bolder;
+    font-size:  50px;
+}
+header #newgamebutton{
+    display: block;
+    margin: 200px auto;
+    width: 100px;
+    padding: 10px 10px;
+    background-color: honeydew;
+    font-family: Arial;
+    color: burlywood;
+    border-radius:10px ;
+    text-decoration: none;
+
+
+
+}
+header #newgamebutton:hover{
+    background-color: greenyellow;
+}
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 20px auto;
+
+}
+body {
+    background-color: #ff0291a2;
+    }
+    .sudoku-cell-big{
+        width: 
+
+    }
+        
+    .sudoku-cell {
+        width: 40px;
+        height: 40px;
+        border: 1px solid black;
+        text-align: center;
+      }
+    
+ 
+

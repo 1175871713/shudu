@@ -4,10 +4,136 @@
     <meta charset="UTF-8">
     <title>数独游戏</title>
     <link href="shudu.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src=jquery-1.11.3.min.js></script>
     <script type="text/javascript" src="support.js"></script>
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="game.js"></script>
    
    
 </head>
+<body>
+    <div class="sudoku-cell">
+        <div class="sudoku-cell-1">
+                <div class="sudoku-cell-small-1"> </div>
+                <div class="sudoku-cell-small-1" ></div>
+                <div class="sudoku-cell-small-1" ></div>
+                <div class="sudoku-cell-small-1"></div>
+                <div class="sudoku-cell-small-1"></div>
+                <div class="sudoku-cell-small-1"></div>
+                <div class="sudoku-cell-small-1"></div>
+                <div class="sudoku-cell-small-1"></div>
+                <div class="sudoku-cell-small-1"></div>
+            
+            </div>
+            <div class="sudoku-cell-4">
+                <div class="sudoku-cell-small-4"></div>
+                <div class="sudoku-cell-small-4"></div>
+                <div class="sudoku-cell-small-4"></div>
+                <div class="sudoku-cell-small-4"></div>
+                <div class="sudoku-cell-small-4"></div>
+                <div class="sudoku-cell-small-4"></div>
+                <div class="sudoku-cell-small-4"></div>
+                <div class="sudoku-cell-small-4"></div>
+                <div class="sudoku-cell-small-4"></div>
+            
+            </div>
+            <div class="sudoku-cell-7">
+                <div class="sudoku-cell-small-7"></div>
+                <div class="sudoku-cell-small-7"></div>
+                <div class="sudoku-cell-small-7"></div>
+                <div class="sudoku-cell-small-7"></div>
+                <div class="sudoku-cell-small-7"></div>
+                <div class="sudoku-cell-small-7"></div>
+                <div class="sudoku-cell-small-7"></div>
+                <div class="sudoku-cell-small-7"></div>
+                <div class="sudoku-cell-small-7"></div>
+            
+            </div>
+            <div class="sudoku-cell-2">
+                <div class="sudoku-cell-small-2"></div>
+                <div class="sudoku-cell-small-2"></div>
+                <div class="sudoku-cell-small-2"></div>
+                <div class="sudoku-cell-small-2"></div>
+                <div class="sudoku-cell-small-2"></div>
+                <div class="sudoku-cell-small-2"></div>
+                <div class="sudoku-cell-small-2"></div>
+                <div class="sudoku-cell-small-2"></div>
+                <div class="sudoku-cell-small-2"></div>
+            
+            </div>
+            <div class="sudoku-cell-5">
+                <div class="sudoku-cell-small-5"></div>
+                <div class="sudoku-cell-small-5"></div>
+                <div class="sudoku-cell-small-5"></div>
+                <div class="sudoku-cell-small-5"></div>
+                <div class="sudoku-cell-small-5"></div>
+                <div class="sudoku-cell-small-5"></div>
+                <div class="sudoku-cell-small-5"></div>
+                <div class="sudoku-cell-small-5"></div>
+                <div class="sudoku-cell-small-5"></div>
+            
+            </div>
+            <div class="sudoku-cell-8">
+                <div class="sudoku-cell-small-8"></div>
+                <div class="sudoku-cell-small-8"></div>
+                <div class="sudoku-cell-small-8"></div>
+                <div class="sudoku-cell-small-8"></div>
+                <div class="sudoku-cell-small-8"></div>
+                <div class="sudoku-cell-small-8"></div>
+                <div class="sudoku-cell-small-8"></div>
+                <div class="sudoku-cell-small-8"></div>
+                <div class="sudoku-cell-small-8"></div>
+            
+            </div>
+            <div class="sudoku-cell-3">
+                <div class="sudoku-cell-small-3"></div>
+                <div class="sudoku-cell-small-3"></div>
+                <div class="sudoku-cell-small-3"></div>
+                <div class="sudoku-cell-small-3"></div>
+                <div class="sudoku-cell-small-3"></div>
+                <div class="sudoku-cell-small-3"></div>
+                <div class="sudoku-cell-small-3"></div>
+                <div class="sudoku-cell-small-3"></div>
+                <div class="sudoku-cell-small-3"></div>
+            
+            </div>
+            <div class="sudoku-cell-6">
+                <div class="sudoku-cell-small-6"></div>
+                <div class="sudoku-cell-small-6"></div>
+                <div class="sudoku-cell-small-6"></div>
+                <div class="sudoku-cell-small-6"></div>
+                <div class="sudoku-cell-small-6"></div>
+                <div class="sudoku-cell-small-6"></div>
+                <div class="sudoku-cell-small-6"></div>
+                <div class="sudoku-cell-small-6"></div>
+                <div class="sudoku-cell-small-6"></div>
+            
+            </div>
+            <div class="sudoku-cell-9">
+                <div class="sudoku-cell-small-9"></div>
+                <div class="sudoku-cell-small-9"></div>
+                <div class="sudoku-cell-small-9"></div>
+                <div class="sudoku-cell-small-9"></div>
+                <div class="sudoku-cell-small-9"></div>
+                <div class="sudoku-cell-small-9"></div>
+                <div class="sudoku-cell-small-9"></div>
+                <div class="sudoku-cell-small-9"></div>
+                <div class="sudoku-cell-small-9"></div>
+            
+            </div>
+
+    </div>
+    
+
+
+</body>
+<script>
+    //页面打开时调用sudo中的Mount函数
+    window.onload = function() {
+
+        var sudo1 = new sudo()
+        sudo1.Mount();
+    }
+ 
+
+    
+</script>
