@@ -11,7 +11,9 @@
    
 </head>
 <body>
-    <div class="sudoku-cell">
+    <span>
+
+        <div class="sudoku-cell">
         <div class="sudoku-cell-1">
                 <div class="sudoku-cell-small-1"> </div>
                 <div class="sudoku-cell-small-1" ></div>
@@ -120,8 +122,11 @@
                 <div class="sudoku-cell-small-9"></div>
             
             </div>
+        </div>
 
-    </div>
+    <button id="btn1" onclick="check()">检查</button>
+
+    </span>
     
 
 
@@ -130,10 +135,24 @@
     //页面打开时调用sudo中的Mount函数
     window.onload = function() {
 
-        var sudo1 = new sudo()
+        sudo1 = new sudo()
+        answer = [[],[],[],[],[],[],[],[],[]];
+        answer = deepCopy(sudo1.sudoarr); 
+        sudo1.sudoarr = deepCopy(makehole(answer))
         sudo1.Mount();
+        
+        
     }
- 
+    check = function()
+    {
+        sudo1.checkAnswer(sudo1.sudoarr,answer)
+    }
+    blur = function(i,j)
+    {
+        sudo1.sudoarr[i][j] = document.getElementById("sudoku-cell-input-"+i.toString()+j.toString()).value-0
+    }
+    
+    
 
     
 </script>

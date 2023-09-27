@@ -17,15 +17,20 @@
         <hl>数独游戏</hl>
         
         <a href="javascript:newgame();"id="newgamebutton">开始游戏</a>
-      <p>time:<span id="time"><span>0</span></p>
+      <p><span id="time"><span id="time"> </span></p>
     </header>
     
       <script>
       document.getElementById("newgamebutton").onclick = function() {
     window.location.href = "game.html"; 
   };
-
-    </script>
+     function t()
+    {
+      var tt = new Date()
+      document.getElementById("time").innerHTML = tt.toLocaleTimeString();
+    }
+    setInterval("t()",1000)
+    </script> 
 
 
 

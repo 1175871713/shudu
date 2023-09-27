@@ -227,5 +227,33 @@ body {
             color: rgba(5, 5, 255, 0.703);
             text-shadow: aqua 1px 1px 1px;
         }  
+        
+    .sudoku-cell-input{
+        border-radius: 5px;
+        height: 55px;
+        width: 55px;
+        border: none;
+        text-align: center;
+        line-height: 55px;
+        color: rgba(5, 5, 255, 0.703);
+        text-shadow: rgb(255, 0, 0) 1px 1px 1px;
+
+        }
+button{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(251, 125, 0);
+    color: aqua;
+    text-align: center;
+    line-height: 150px;
+
+    }
+span{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
    
     

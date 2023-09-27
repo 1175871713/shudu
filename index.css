@@ -10,14 +10,14 @@ header{
 }
 header hl{
     font-family: 宋体, Helvetica, sans-serif;
-    font-weight: 40px;
+    font-weight: 100px;
     font-weight: bolder;
-    font-size:  50px;
+    font-size:  100px;
 }
 header #newgamebutton{
     display: block;
     margin: 200px auto;
-    width: 100px;
+    width: 200px;
     padding: 10px 10px;
     background-color: honeydew;
     font-family: Arial;
@@ -38,7 +38,7 @@ header p{
 
 }
 body {
-    background-color: #ff0291a2;
+    background-color: #d70b6780;
     }
     .sudoku-cell-big{
         width: 
