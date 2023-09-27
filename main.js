@@ -124,7 +124,7 @@ class sudo{
     function makehole(arr)
     {
         var brr = deepCopy(arr);
-        for(let i=0;i<1;i++) {
+        for(let i=0;i<40;i++) {
             let n = Math.floor(Math.random()*9);
              let m = Math.floor(Math.random()*9);
                 if(brr[n][m] > 0) {
