@@ -13,11 +13,11 @@ class sudo{
                 let  q = Math.floor((j)/3);
                 let  t = p+q*3+1;
                 if(this.sudoarr[i][j] == " "){
-                    document.getElementsByClassName("sudoku-cell-small-" +t.toString() )[j%3+(i%3)*3].innerHTML = 
+                    document.getElementsByClassName("sudoku-cell-small-" +t.toString() )[j%3+(i%3)*3+8].innerHTML = 
                     "<input type='text' class='sudoku-cell-input' maxlength='1' id='sudoku-cell-input-"+i.toString()+j.toString()+"'"+" oninput = 'window.blur(" +i.toString()+','+j.toString()+ ")"+ "'"  + " />";
                 }
                 else{
-             document.getElementsByClassName("sudoku-cell-small-" +t.toString() )[j%3+(i%3)*3].innerHTML = this.sudoarr[i][j];
+             document.getElementsByClassName("sudoku-cell-small-" +t.toString() )[j%3+(i%3)*3+8].innerHTML = this.sudoarr[i][j];
                 }
              
             }
@@ -114,39 +114,19 @@ class sudo{
     
      checkAnswer(arr,answer){
         if(arr.toString() == answer.toString())
-        return true;
+        alert("恭喜你答对了！") ;
         else
-        return false;
+        alert("答案错误！") ;
 
     }
 }
 
-    function makehole(arr)
-    {
-        var brr = deepCopy(arr);
-        for(let i=0;i<30;i++) {
-            let n = Math.floor(Math.random()*9);
-             let m = Math.floor(Math.random()*9);
-                if(brr[n][m] > 0) {
-                     brr[n][m] = " ";
-                     
-                             }
-                     }
-                    return brr;
-    }
-    function deepCopy(source){
-        if (typeof source != "object") {
-           return source;
-        }
-        if (source == null) {
-            return source;
-        }
-        var newObj = source.constructor === Array ? [] : {};  //开辟一块新的内存空间
-        for (var i in source) {
-             newObj[i] = deepCopy(source[i]);
-        }
-        return newObj;
-    }
 
+
+    onmessage = function(e){
+        var t = new sudo();
+        var answer = t.sudoarr;
+        postMessage(answer);
+    }
 
 

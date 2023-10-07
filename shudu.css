@@ -6,8 +6,8 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
 
-        width: 670px;
-        height: 670px;
+        width: 280px;
+        height: 280px;
         border: 10px solid rgb(251, 125, 0);
         border-radius: 10px;
 
@@ -22,8 +22,8 @@ body {
         justify-content: center;
 
        
-        width: 210px;
-        height: 210px;
+        width: 84px;
+        height: 84px;
         border: 7px solid orange;
         border-radius: 10px;
         text-align: center;  
@@ -35,8 +35,8 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         
-        width: 210px;
-        height: 210px;
+        width: 84px;
+        height: 84px;
         border: 7px solid orange;
         border-radius: 10px;
         text-align: center;  
@@ -48,8 +48,8 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         
-        width: 210px;
-        height: 210px;
+        width: 84px;
+        height: 84px;
         border: 7px solid orange;
         border-radius: 10px;
         text-align: center;  
@@ -61,8 +61,8 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         
-        width: 210px;
-        height: 210px;
+        width: 84px;
+        height: 84px;
         border: 7px solid orange;
         border-radius: 10px;
         text-align: center;  
@@ -74,8 +74,8 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         
-        width: 210px;
-        height: 210px;
+        width: 84px;
+        height: 84px;
         border: 7px solid orange;
         border-radius: 10px;
         text-align: center;  
@@ -87,8 +87,8 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         
-        width: 210px;
-        height: 210px;
+        width: 84px;
+        height: 84px;
         border: 7px solid orange;
         border-radius: 10px;
         text-align: center;  
@@ -100,8 +100,8 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         
-        width: 210px;
-        height: 210px;
+        width: 84px;
+        height: 84px;
         border: 7px solid orange;
         border-radius: 10px;
         text-align: center;  
@@ -113,8 +113,8 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         
-        width: 210px;
-        height: 210px;
+        width: 84px;
+        height: 84px;
         border: 7px solid orange;
         border-radius: 10px;
         text-align: center;  
@@ -126,8 +126,8 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         
-        width: 210px;
-        height: 210px;
+        width: 84px;
+        height: 84px;
         border: 7px solid orange;
         border-radius: 10px;
         text-align: center;  
@@ -137,11 +137,11 @@ body {
 
     .sudoku-cell-small-1{
             border-radius: 5px;
-            height: 60px;
-            width: 60px;
+            height: 24px;
+            width: 24px;
             border: 2px solid rgb(125, 170, 1);
             text-align: center;
-            line-height: 60px;
+            line-height: 24px;
             color: rgba(5, 5, 255, 0.703);
             text-shadow: aqua 1px 1px 1px;
             
@@ -149,92 +149,92 @@ body {
         }   
     .sudoku-cell-small-2{
             border-radius: 5px;
-            height: 60px;
-            width: 60px;
+            height: 24px;
+            width: 24px;
             border: 2px solid rgb(125, 170, 1);
             text-align: center;  
-            line-height: 60px;
+            line-height: 24px;
             color: rgba(5, 5, 255, 0.703);
             text-shadow: aqua 1px 1px 1px;
         }  
     .sudoku-cell-small-3{
             border-radius: 5px;
-            height: 60px;
-            width: 60px;
+            height: 24px;
+            width: 24px;
             border: 2px solid rgb(125, 170, 1);
             text-align: center;  
-            line-height: 60px;
+            line-height: 24px;
             color: rgba(5, 5, 255, 0.703);
             text-shadow: aqua 1px 1px 1px;
         }  
     .sudoku-cell-small-4{
             border-radius: 5px;
-            height: 60px;
-            width: 60px;
+            height: 24px;
+            width: 24px;
             border: 2px solid rgb(125, 170, 1);
             text-align: center;  
-            line-height: 60px;
+            line-height: 24px;
             color: rgba(5, 5, 255, 0.703);
             text-shadow: aqua 1px 1px 1px;
         }  
     .sudoku-cell-small-5{
             border-radius: 5px;
-            height: 60px;
-            width: 60px;
+            height: 24px;
+            width: 24px;
             border: 2px solid rgb(125, 170, 1);
             text-align: center;  
-            line-height: 60px;
+            line-height: 24px;
             color: rgba(5, 5, 255, 0.703);
             text-shadow: aqua 1px 1px 1px;
         }  
     .sudoku-cell-small-6{
             border-radius: 5px;
-            height: 60px;
-            width: 60px;
+            height: 24px;
+            width: 24px;
             border: 2px solid rgb(125, 170, 1);
             text-align: center;  
-            line-height: 60px;
+            line-height: 24px;
             color: rgba(5, 5, 255, 0.703);
             text-shadow: aqua 1px 1px 1px;
         }  
     .sudoku-cell-small-7{
             border-radius: 5px;
-            height: 60px;
-            width: 60px;
+            height: 24px;
+            width: 24px;
             border: 2px solid rgb(125, 170, 1);
             text-align: center;  
-            line-height: 60px;
+            line-height: 24px;
             color: rgba(5, 5, 255, 0.703);
             text-shadow: aqua 1px 1px 1px;
         }  
     .sudoku-cell-small-8{
             border-radius: 5px;
-            height: 60px;
-            width: 60px;
+            height: 24px;
+            width: 24px;
             border: 2px solid rgb(125, 170, 1);
             text-align: center;  
-            line-height: 60px;
+            line-height: 24px;
             color: rgba(5, 5, 255, 0.703);
             text-shadow: aqua 1px 1px 1px;
         }  
     .sudoku-cell-small-9{
             border-radius: 5px;
-            height: 60px;
-            width: 60px;
+            height: 24px;
+            width: 24px;
             border: 2px solid rgb(125, 170, 1);
             text-align: center;  
-            line-height: 60px;
+            line-height: 24px;
             color: rgba(5, 5, 255, 0.703);
             text-shadow: aqua 1px 1px 1px;
         }  
         
     .sudoku-cell-input{
         border-radius: 5px;
-        height: 55px;
-        width: 55px;
+        height: 22px;
+        width: 22px;
         border: none;
         text-align: center;
-        line-height: 55px;
+        line-height: 22px;
         color: rgba(5, 5, 255, 0.703);
         text-shadow: rgb(255, 0, 0) 1px 1px 1px;
 
@@ -251,7 +251,7 @@ button{
     }
 span{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
 }
